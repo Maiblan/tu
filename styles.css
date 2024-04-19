@@ -1,52 +1,85 @@
 *{
-    text-decoration: none; 
+    text-decoration: none;
+    background-color: #9CC990; 
    
 }
-nav{
-    color: #855a6d;
+h1,h2,h3,h5{
+    /* margin:50px;  */
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 20px black;
+    color: #FEFFC5;
+ 
 }
-
+a{
+   margin: 10px;
+}
 header{
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #855a6d;
-    background-color: #20344e;
-    
+   color: black;
 }
-body{
-    background-color: #855a6d;
-    color: #20344e;
+nav {
+    display: flex;
+    gap: 50px;
+}  
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    color: #FEFFC5;
+    text-shadow: 0 0 20px black;
+}
+
+li{
+    list-style: none;
 }
 
 article{
     margin: 10px;
-    border: 5px solid rgb(143, 92, 112);
-    color: #20344e;
+    border: 5px solid  #FEFFC5;;
+   
 }
-input{
-    margin: 20px;
-    background-color:#855a6d;
-    color: #20344e;
+form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    
 }
 button{
-    background-color: #855a6d;
-    color: #20344e;
-    color: #20344e;
+    align-self: center;
+    width: 130px;
+    height: 40px;
+    color: #9CC990;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background-color: #FEFFC5;
 }
 
 footer{
     text-align: center;
-    color: #20344e;
 }
 
 h2,p{
     text-align: center;
-    color: #20344e;
 }
 
 table{
+    gap: 10px;
+    margin: 30px;
     display: flex;
    justify-content: center;
-   color: #20344e;
+  
 }
